@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "dev": "webpack-dev-server"
+  },
+  "dependencies": {
+    "@babel/core": "^7",
+    "@babel/preset-env": "^7",
+    "@babel/preset-react": "^7",
+    "antd": "3",
+    "babel-loader": "^8",
+    "css-loader": "^3",
+    "less": "^3",
+    "less-loader": "^6",
+    "react": "^18",
+    "react-dom": "^18",
+    "style-loader": "^1",
+    "webpack": "^4",
+    "webpack-cli": "^3",
+    "webpack-dev-server": "^3"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.13.8",
+    "html-webpack-plugin": "4"
+  }
+}
