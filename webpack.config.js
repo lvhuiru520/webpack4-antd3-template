@@ -92,6 +92,9 @@ module.exports = {
   // 配置解析选项
   resolve: {
     extensions: [".js", ".jsx"], // 解析文件时可以忽略的扩展名
+    alias:{
+      components:path.resolve(__dirname,'src/components')
+    }
   },
   externals: {
     jquery: "jQuery",
